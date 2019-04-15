@@ -1,0 +1,81 @@
+		img{
+			width: 110px;
+    		height: 100px;	
+		}
+		table{
+			margin: 0 auto;
+			border: 1px solid black;
+			/*https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow5*/
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-collapse: collapse;
+			text-align: center;
+			font-size: 18px;
+		}
+		table th {
+  			    border: 2px solid #ff0a0a;
+    background-color: #edec03;
+  			padding: 10px;
+  			font-size: 20px;
+		}
+		.pDiv{
+			    line-height: 7px;
+		}
+		.column {
+			  float: left;
+			  width: 50%;
+			}
+
+			/* Clear floats after the columns */
+		.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+			.btnDiv{
+				float: right;
+			}
+			.btnStartQuiz{
+				padding: 12px;
+    border-radius: 5%;
+    border: 2px double #eadd11;
+    font-size: 20px;
+    background: #3fb954;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+			}
+			.btnStartQuiz:hover{
+				padding: 12px;
+    border-radius: 5%;
+    border: 2px double #3fb954;
+    cursor: pointer;
+    font-size: 20px;
+    background: #eadd11;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+			}
+			.textboxes{
+				    margin-left: 30px;
+    padding: 5px;
+			}
+			.btnSubmit{
+				    padding: 4px;
+    font-size: 14px;
+    background: #fff;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: bold;
+			}
+			.btnSubmit:hover{
+				    padding: 4px;
+    font-size: 14px;
+    background: #000;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff
+			}
+			.highlight {
+    background: #00ffb8;
+}
